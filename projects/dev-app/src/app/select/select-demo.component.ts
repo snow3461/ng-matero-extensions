@@ -44,7 +44,7 @@ export class SelectDemoComponent {
     { id: 5, name: 'Strawberry' },
   ];
 
-  value = 5;
+  value: number | null = null;
 
   selectedAccount = 'Adam';
   accounts = [

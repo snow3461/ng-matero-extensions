@@ -1,3 +1,5 @@
-mat-form-field {
-  vertical-align: middle;
-}
+// Without this, the baseline of MtxSelect and Mat-Select do not align
+// this causes problem in aligning  mat-form-field
+// mat-form-field {
+//   vertical-align: middle;
+// }
